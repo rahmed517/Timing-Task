@@ -1,8 +1,0 @@
-4.8172	EXP	Set Window color=[ 0.  0.  0.] (rgb)
-3.2945	EXP	Set Window color=[ 0.  0.  0.] (rgb)
-4.1110	EXP	Started presenting text
-4.4966	DATA	Keypress: space
-4.5411	EXP	Imported condition.xlsx as conditions, 39 conditions, 8 params
-4.5426	EXP	Created sequence: random, trialTypes=39, nReps=1, seed=None
-4.5436	EXP	New trial (rep=0, index=0): {u'length_1_time': 0.112, u'stim': u'media/stim2.wav', u'trial_num': 2, u'length_2_frames': 6, u'length_1_frames': 7, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 5, u'correct': 2}
-4.6650	WARNING	Data file, data/1_2013_Mar_10_2208.csv, will be overwritten
