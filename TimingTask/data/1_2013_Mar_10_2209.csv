@@ -1,0 +1,3 @@
+length_1_time,stim,trial_num,length_2_frames,length_1_frames,length_2_time,num_trials_presented,correct,trials_1.thisRepN,trials_1.thisTrialN,trials_1.thisN,trials_1.thisIndex,key_resp.keys,key_resp.corr,key_resp.rt,date,expName,session,participant,
+0.096,media/stim3.wav,3,8,6,0.128,4,1,0,0,0,13,1,1,1.48444008827,2013_Mar_10_2209,None,001,1,
+0.224,media/stim8.wav,8,6,14,0.096,5,2,0,1,1,28,2,1,1.28431797028,2013_Mar_10_2209,None,001,1,

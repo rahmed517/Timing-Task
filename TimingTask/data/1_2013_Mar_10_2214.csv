@@ -1,0 +1,6 @@
+length_1_time,stim,trial_num,length_2_frames,length_1_frames,length_2_time,num_trials_presented,correct,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,key_resp.keys,key_resp.corr,key_resp.rt,date,expName,session,participant,
+0.128,media/stim4.wav,4,6,8,0.096,3,2,0,0,0,14,1,0,0.784018993378,2013_Mar_10_2214,None,001,1,
+0.224,media/stim8.wav,8,6,14,0.096,5,2,0,1,1,29,1,0,0.550891876221,2013_Mar_10_2214,None,001,1,
+0.096,media/stim5.wav,5,10,6,0.16,4,1,0,2,2,20,2,0,0.172433853149,2013_Mar_10_2214,None,001,1,
+0.608,media/stim12.wav,12,6,38,0.096,2,2,0,3,3,37,2,1,0.252836942673,2013_Mar_10_2214,None,001,1,
+0.096,media/stim1.wav,1,7,6,0.112,5,1,0,4,4,1,2,0,0.617406129837,2013_Mar_10_2214,None,001,1,

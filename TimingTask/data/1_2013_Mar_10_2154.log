@@ -1,0 +1,283 @@
+5.4970	EXP	Set Window color=[ 0.  0.  0.] (rgb)
+6.9785	EXP	Started presenting text
+7.5311	DATA	Keypress: space
+7.5748	EXP	Imported condition.xlsx as conditions, 39 conditions, 8 params
+7.5762	EXP	Created sequence: random, trialTypes=39, nReps=1, seed=None
+7.5773	EXP	New trial (rep=0, index=0): {u'length_1_time': 0.096000000000000002, u'stim': u'sound.wav', u'trial_num': 5, u'length_2_frames': 10, u'length_1_frames': 6, u'length_2_time': 0.16, u'num_trials_presented': 4, u'correct': 1}
+7.5962	EXP	Stopped presenting text
+7.5962	EXP	Started presenting fixation
+8.1151	EXP	Stopped presenting fixation
+8.1320	EXP	Started presenting img_1
+8.2335	EXP	Stopped presenting img_1
+8.2335	EXP	Started presenting wait
+9.2286	EXP	Stopped presenting wait
+9.2286	EXP	Started presenting img_2
+9.3953	EXP	Stopped presenting img_2
+10.0478	DATA	Keypress: 2
+10.0496	EXP	New trial (rep=0, index=1): {u'length_1_time': 0.128, u'stim': u'sound.wav', u'trial_num': 4, u'length_2_frames': 6, u'length_1_frames': 8, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 3, u'correct': 2}
+10.0640	EXP	Started presenting fixation
+10.5638	EXP	Stopped presenting fixation
+10.5804	EXP	Started presenting img_1
+10.7138	EXP	Stopped presenting img_1
+10.7138	EXP	Started presenting wait
+11.7142	EXP	Stopped presenting wait
+11.7142	EXP	Started presenting img_2
+11.8142	EXP	Stopped presenting img_2
+12.1985	DATA	Keypress: 2
+12.1998	EXP	New trial (rep=0, index=2): {u'length_1_time': 0.35199999999999998, u'stim': u'sound.wav', u'trial_num': 10, u'length_2_frames': 6, u'length_1_frames': 22, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 2, u'correct': 2}
+12.2144	EXP	Started presenting fixation
+12.7143	EXP	Stopped presenting fixation
+12.7311	EXP	Started presenting img_1
+13.0979	EXP	Stopped presenting img_1
+13.0979	EXP	Started presenting wait
+14.1023	EXP	Stopped presenting wait
+14.1023	EXP	Started presenting img_2
+14.1982	EXP	Stopped presenting img_2
+14.6019	DATA	Keypress: 1
+14.6032	EXP	New trial (rep=0, index=3): {u'length_1_time': 0.128, u'stim': u'sound.wav', u'trial_num': 4, u'length_2_frames': 6, u'length_1_frames': 8, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 3, u'correct': 2}
+14.6183	EXP	Started presenting fixation
+15.1149	EXP	Stopped presenting fixation
+15.1316	EXP	Started presenting img_1
+15.2651	EXP	Stopped presenting img_1
+15.2651	EXP	Started presenting wait
+16.2652	EXP	Stopped presenting wait
+16.2652	EXP	Started presenting img_2
+16.3654	EXP	Stopped presenting img_2
+16.7656	DATA	Keypress: 2
+16.7669	EXP	New trial (rep=0, index=4): {u'length_1_time': 0.128, u'stim': u'sound.wav', u'trial_num': 4, u'length_2_frames': 6, u'length_1_frames': 8, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 3, u'correct': 2}
+16.7818	EXP	Started presenting fixation
+17.2821	EXP	Stopped presenting fixation
+17.2988	EXP	Started presenting img_1
+17.4322	EXP	Stopped presenting img_1
+17.4322	EXP	Started presenting wait
+18.4326	EXP	Stopped presenting wait
+18.4326	EXP	Started presenting img_2
+18.5321	EXP	Stopped presenting img_2
+19.1667	DATA	Keypress: 1
+19.1681	EXP	New trial (rep=0, index=5): {u'length_1_time': 0.16, u'stim': u'sound.wav', u'trial_num': 6, u'length_2_frames': 6, u'length_1_frames': 10, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 3, u'correct': 2}
+19.1824	EXP	Started presenting fixation
+19.6825	EXP	Stopped presenting fixation
+19.6991	EXP	Started presenting img_1
+19.8658	EXP	Stopped presenting img_1
+19.8658	EXP	Started presenting wait
+20.8660	EXP	Stopped presenting wait
+20.8660	EXP	Started presenting img_2
+20.9659	EXP	Stopped presenting img_2
+21.2832	DATA	Keypress: 2
+21.2846	EXP	New trial (rep=0, index=6): {u'length_1_time': 0.096000000000000002, u'stim': u'sound.wav', u'trial_num': 9, u'length_2_frames': 22, u'length_1_frames': 6, u'length_2_time': 0.35199999999999998, u'num_trials_presented': 3, u'correct': 1}
+21.2997	EXP	Started presenting fixation
+21.7995	EXP	Stopped presenting fixation
+21.8161	EXP	Started presenting img_1
+21.9162	EXP	Stopped presenting img_1
+21.9162	EXP	Started presenting wait
+22.9165	EXP	Stopped presenting wait
+22.9165	EXP	Started presenting img_2
+23.2339	DATA	Keypress: 1
+23.2831	EXP	Stopped presenting img_2
+26.2725	EXP	New trial (rep=0, index=7): {u'length_1_time': 0.35199999999999998, u'stim': u'sound.wav', u'trial_num': 10, u'length_2_frames': 6, u'length_1_frames': 22, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 2, u'correct': 2}
+26.2880	EXP	Started presenting fixation
+26.7838	EXP	Stopped presenting fixation
+26.8006	EXP	Started presenting img_1
+27.1673	EXP	Stopped presenting img_1
+27.1673	EXP	Started presenting wait
+28.1677	EXP	Stopped presenting wait
+28.1677	EXP	Started presenting img_2
+28.2675	EXP	Stopped presenting img_2
+28.9515	DATA	Keypress: 2
+28.9528	EXP	New trial (rep=0, index=8): {u'length_1_time': 0.112, u'stim': u'sound.wav', u'trial_num': 2, u'length_2_frames': 6, u'length_1_frames': 7, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 5, u'correct': 2}
+28.9677	EXP	Started presenting fixation
+29.4679	EXP	Stopped presenting fixation
+29.4847	EXP	Started presenting img_1
+29.6009	EXP	Stopped presenting img_1
+29.6009	EXP	Started presenting wait
+30.6011	EXP	Stopped presenting wait
+30.6011	EXP	Started presenting img_2
+30.7013	EXP	Stopped presenting img_2
+31.3688	DATA	Keypress: 2
+31.3702	EXP	New trial (rep=0, index=9): {u'length_1_time': 0.096000000000000002, u'stim': u'sound.wav', u'trial_num': 3, u'length_2_frames': 8, u'length_1_frames': 6, u'length_2_time': 0.128, u'num_trials_presented': 4, u'correct': 1}
+31.3849	EXP	Started presenting fixation
+31.8849	EXP	Stopped presenting fixation
+31.9014	EXP	Started presenting img_1
+32.0016	EXP	Stopped presenting img_1
+32.0016	EXP	Started presenting wait
+33.0016	EXP	Stopped presenting wait
+33.0016	EXP	Started presenting img_2
+33.1352	EXP	Stopped presenting img_2
+33.5858	DATA	Keypress: 2
+33.5873	EXP	New trial (rep=0, index=10): {u'length_1_time': 0.096000000000000002, u'stim': u'sound.wav', u'trial_num': 3, u'length_2_frames': 8, u'length_1_frames': 6, u'length_2_time': 0.128, u'num_trials_presented': 4, u'correct': 1}
+33.6017	EXP	Started presenting fixation
+34.1019	EXP	Stopped presenting fixation
+34.1188	EXP	Started presenting img_1
+34.2187	EXP	Stopped presenting img_1
+34.2187	EXP	Started presenting wait
+35.2189	EXP	Stopped presenting wait
+35.2189	EXP	Started presenting img_2
+35.3524	EXP	Stopped presenting img_2
+35.9064	DATA	Keypress: 2
+35.9077	EXP	New trial (rep=0, index=11): {u'length_1_time': 0.60799999999999998, u'stim': u'sound.wav', u'trial_num': 12, u'length_2_frames': 6, u'length_1_frames': 38, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 2, u'correct': 2}
+35.9235	EXP	Started presenting fixation
+36.4193	EXP	Stopped presenting fixation
+36.4359	EXP	Started presenting img_1
+37.0732	EXP	Stopped presenting img_1
+37.0732	EXP	Started presenting wait
+38.0694	EXP	Stopped presenting wait
+38.0694	EXP	Started presenting img_2
+38.1696	EXP	Stopped presenting img_2
+38.5368	DATA	Keypress: 2
+38.5382	EXP	New trial (rep=0, index=12): {u'length_1_time': 0.16, u'stim': u'sound.wav', u'trial_num': 6, u'length_2_frames': 6, u'length_1_frames': 10, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 3, u'correct': 2}
+38.5528	EXP	Started presenting fixation
+39.0529	EXP	Stopped presenting fixation
+39.0695	EXP	Started presenting img_1
+39.2363	EXP	Stopped presenting img_1
+39.2363	EXP	Started presenting wait
+40.2367	EXP	Stopped presenting wait
+40.2367	EXP	Started presenting img_2
+40.3366	EXP	Stopped presenting img_2
+40.6703	DATA	Keypress: 1
+40.6717	EXP	New trial (rep=0, index=13): {u'length_1_time': 0.112, u'stim': u'sound.wav', u'trial_num': 2, u'length_2_frames': 6, u'length_1_frames': 7, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 5, u'correct': 2}
+40.6865	EXP	Started presenting fixation
+41.1868	EXP	Stopped presenting fixation
+41.2035	EXP	Started presenting img_1
+41.3203	EXP	Stopped presenting img_1
+41.3203	EXP	Started presenting wait
+42.3202	EXP	Stopped presenting wait
+42.3202	EXP	Started presenting img_2
+42.4204	EXP	Stopped presenting img_2
+43.1213	DATA	Keypress: 2
+43.1226	EXP	New trial (rep=0, index=14): {u'length_1_time': 0.096000000000000002, u'stim': u'sound.wav', u'trial_num': 9, u'length_2_frames': 22, u'length_1_frames': 6, u'length_2_time': 0.35199999999999998, u'num_trials_presented': 3, u'correct': 1}
+43.1372	EXP	Started presenting fixation
+43.6369	EXP	Stopped presenting fixation
+43.6538	EXP	Started presenting img_1
+43.7538	EXP	Stopped presenting img_1
+43.7538	EXP	Started presenting wait
+44.7540	EXP	Stopped presenting wait
+44.7540	EXP	Started presenting img_2
+45.1209	EXP	Stopped presenting img_2
+45.4889	DATA	Keypress: 1
+45.4902	EXP	New trial (rep=0, index=15): {u'length_1_time': 0.096000000000000002, u'stim': u'sound.wav', u'trial_num': 1, u'length_2_frames': 7, u'length_1_frames': 6, u'length_2_time': 0.112, u'num_trials_presented': 5, u'correct': 1}
+45.5043	EXP	Started presenting fixation
+46.0043	EXP	Stopped presenting fixation
+46.0210	EXP	Started presenting img_1
+46.1211	EXP	Stopped presenting img_1
+46.1211	EXP	Started presenting wait
+47.1212	EXP	Stopped presenting wait
+47.1212	EXP	Started presenting img_2
+47.2379	EXP	Stopped presenting img_2
+47.6551	DATA	Keypress: 2
+47.6564	EXP	New trial (rep=0, index=16): {u'length_1_time': 0.224, u'stim': u'sound.wav', u'trial_num': 8, u'length_2_frames': 6, u'length_1_frames': 14, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 5, u'correct': 2}
+47.6713	EXP	Started presenting fixation
+48.1714	EXP	Stopped presenting fixation
+48.1882	EXP	Started presenting img_1
+48.4216	EXP	Stopped presenting img_1
+48.4216	EXP	Started presenting wait
+49.4218	EXP	Stopped presenting wait
+49.4218	EXP	Started presenting img_2
+49.5218	EXP	Stopped presenting img_2
+49.9222	DATA	Keypress: 2
+49.9236	EXP	New trial (rep=0, index=17): {u'length_1_time': 0.096000000000000002, u'stim': u'sound.wav', u'trial_num': 11, u'length_2_frames': 38, u'length_1_frames': 6, u'length_2_time': 0.60799999999999998, u'num_trials_presented': 1, u'correct': 1}
+49.9383	EXP	Started presenting fixation
+50.4387	EXP	Stopped presenting fixation
+50.4553	EXP	Started presenting img_1
+50.5551	EXP	Stopped presenting img_1
+50.5551	EXP	Started presenting wait
+51.5553	EXP	Stopped presenting wait
+51.5553	EXP	Started presenting img_2
+52.1928	EXP	Stopped presenting img_2
+52.5067	DATA	Keypress: 1
+52.5237	EXP	New trial (rep=0, index=18): {u'length_1_time': 0.224, u'stim': u'sound.wav', u'trial_num': 8, u'length_2_frames': 6, u'length_1_frames': 14, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 5, u'correct': 2}
+52.5389	EXP	Started presenting fixation
+53.0390	EXP	Stopped presenting fixation
+53.0558	EXP	Started presenting img_1
+53.2934	EXP	Stopped presenting img_1
+53.2934	EXP	Started presenting wait
+54.2893	EXP	Stopped presenting wait
+54.2893	EXP	Started presenting img_2
+54.3894	EXP	Stopped presenting img_2
+54.7231	DATA	Keypress: 2
+54.7245	EXP	New trial (rep=0, index=19): {u'length_1_time': 0.224, u'stim': u'sound.wav', u'trial_num': 8, u'length_2_frames': 6, u'length_1_frames': 14, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 5, u'correct': 2}
+54.7394	EXP	Started presenting fixation
+55.2396	EXP	Stopped presenting fixation
+55.2563	EXP	Started presenting img_1
+55.4896	EXP	Stopped presenting img_1
+55.4896	EXP	Started presenting wait
+56.4898	EXP	Stopped presenting wait
+56.4898	EXP	Started presenting img_2
+56.5896	EXP	Stopped presenting img_2
+57.3239	DATA	Keypress: 2
+57.3252	EXP	New trial (rep=0, index=20): {u'length_1_time': 0.096000000000000002, u'stim': u'sound.wav', u'trial_num': 5, u'length_2_frames': 10, u'length_1_frames': 6, u'length_2_time': 0.16, u'num_trials_presented': 4, u'correct': 1}
+57.3399	EXP	Started presenting fixation
+57.8398	EXP	Stopped presenting fixation
+57.8566	EXP	Started presenting img_1
+57.9567	EXP	Stopped presenting img_1
+57.9567	EXP	Started presenting wait
+58.9569	EXP	Stopped presenting wait
+58.9569	EXP	Started presenting img_2
+59.1236	EXP	Stopped presenting img_2
+59.6407	DATA	Keypress: 1
+59.6420	EXP	New trial (rep=0, index=21): {u'length_1_time': 0.112, u'stim': u'sound.wav', u'trial_num': 2, u'length_2_frames': 6, u'length_1_frames': 7, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 5, u'correct': 2}
+59.6568	EXP	Started presenting fixation
+60.1571	EXP	Stopped presenting fixation
+60.1738	EXP	Started presenting img_1
+60.2939	EXP	Stopped presenting img_1
+60.2939	EXP	Started presenting wait
+61.2907	EXP	Stopped presenting wait
+61.2907	EXP	Started presenting img_2
+61.3908	EXP	Stopped presenting img_2
+62.3787	DATA	Keypress: 2
+62.3802	EXP	New trial (rep=0, index=22): {u'length_1_time': 0.096000000000000002, u'stim': u'sound.wav', u'trial_num': 7, u'length_2_frames': 14, u'length_1_frames': 6, u'length_2_time': 0.224, u'num_trials_presented': 2, u'correct': 1}
+62.3948	EXP	Started presenting fixation
+62.8910	EXP	Stopped presenting fixation
+62.9077	EXP	Started presenting img_1
+63.0077	EXP	Stopped presenting img_1
+63.0077	EXP	Started presenting wait
+64.0079	EXP	Stopped presenting wait
+64.0079	EXP	Started presenting img_2
+64.2413	EXP	Stopped presenting img_2
+64.7252	DATA	Keypress: 1
+64.7266	EXP	New trial (rep=0, index=23): {u'length_1_time': 0.096000000000000002, u'stim': u'sound.wav', u'trial_num': 5, u'length_2_frames': 10, u'length_1_frames': 6, u'length_2_time': 0.16, u'num_trials_presented': 4, u'correct': 1}
+64.7413	EXP	Started presenting fixation
+65.2461	EXP	Stopped presenting fixation
+65.2630	EXP	Started presenting img_1
+65.3584	EXP	Stopped presenting img_1
+65.3584	EXP	Started presenting wait
+66.3585	EXP	Stopped presenting wait
+66.3585	EXP	Started presenting img_2
+66.5250	EXP	Stopped presenting img_2
+67.0091	DATA	Keypress: 2
+67.0105	EXP	New trial (rep=0, index=24): {u'length_1_time': 0.60799999999999998, u'stim': u'sound.wav', u'trial_num': 12, u'length_2_frames': 6, u'length_1_frames': 38, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 2, u'correct': 2}
+67.0252	EXP	Started presenting fixation
+67.5251	EXP	Stopped presenting fixation
+67.5417	EXP	Started presenting img_1
+68.1754	EXP	Stopped presenting img_1
+68.1754	EXP	Started presenting wait
+69.1756	EXP	Stopped presenting wait
+69.1756	EXP	Started presenting img_2
+69.2757	EXP	Stopped presenting img_2
+69.6761	DATA	Keypress: 1
+69.6774	EXP	New trial (rep=0, index=25): {u'length_1_time': 0.096000000000000002, u'stim': u'sound.wav', u'trial_num': 1, u'length_2_frames': 7, u'length_1_frames': 6, u'length_2_time': 0.112, u'num_trials_presented': 5, u'correct': 1}
+69.6922	EXP	Started presenting fixation
+70.1924	EXP	Stopped presenting fixation
+70.2091	EXP	Started presenting img_1
+70.3092	EXP	Stopped presenting img_1
+70.3092	EXP	Started presenting wait
+71.3093	EXP	Stopped presenting wait
+71.3093	EXP	Started presenting img_2
+71.4260	EXP	Stopped presenting img_2
+71.9935	DATA	Keypress: 1
+71.9949	EXP	New trial (rep=0, index=26): {u'length_1_time': 0.096000000000000002, u'stim': u'sound.wav', u'trial_num': 1, u'length_2_frames': 7, u'length_1_frames': 6, u'length_2_time': 0.112, u'num_trials_presented': 5, u'correct': 1}
+72.0094	EXP	Started presenting fixation
+72.5094	EXP	Stopped presenting fixation
+72.5262	EXP	Started presenting img_1
+72.6260	EXP	Stopped presenting img_1
+72.6260	EXP	Started presenting wait
+73.6262	EXP	Stopped presenting wait
+73.6262	EXP	Started presenting img_2
+73.7431	EXP	Stopped presenting img_2
+74.1105	DATA	Keypress: 2
+74.1119	EXP	New trial (rep=0, index=27): {u'length_1_time': 0.096000000000000002, u'stim': u'sound.wav', u'trial_num': 1, u'length_2_frames': 7, u'length_1_frames': 6, u'length_2_time': 0.112, u'num_trials_presented': 5, u'correct': 1}
+74.1265	EXP	Started presenting fixation
+74.6266	EXP	Stopped presenting fixation
+74.6431	EXP	Started presenting img_1
+74.7433	EXP	Stopped presenting img_1
+74.7433	EXP	Started presenting wait
+75.0654	DATA	Keypress: escape

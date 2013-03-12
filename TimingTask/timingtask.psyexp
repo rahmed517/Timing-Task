@@ -1,0 +1,126 @@
+<PsychoPy2experiment version="1.75.01" encoding="utf-8">
+  <Settings>
+    <Param name="Show mouse" val="False" valType="bool" updates="None"/>
+    <Param name="Save csv file" val="False" valType="bool" updates="None"/>
+    <Param name="Monitor" val="testMonitor" valType="str" updates="None"/>
+    <Param name="Enable Escape" val="True" valType="bool" updates="None"/>
+    <Param name="color" val="$[0,0,0]" valType="str" updates="None"/>
+    <Param name="Window size (pixels)" val="[1024, 768]" valType="code" updates="None"/>
+    <Param name="Full-screen window" val="True" valType="bool" updates="None"/>
+    <Param name="colorSpace" val="rgb" valType="str" updates="None"/>
+    <Param name="Save log file" val="True" valType="bool" updates="None"/>
+    <Param name="Experiment info" val="{'participant':'', 'session':'001'}" valType="code" updates="None"/>
+    <Param name="Save excel file" val="False" valType="bool" updates="None"/>
+    <Param name="Save wide csv file" val="True" valType="bool" updates="None"/>
+    <Param name="Save psydat file" val="True" valType="bool" updates="None"/>
+    <Param name="expName" val="timingtask" valType="str" updates="None"/>
+    <Param name="logging level" val="exp" valType="code" updates="None"/>
+    <Param name="Units" val="use prefs" valType="str" updates="None"/>
+    <Param name="Show info dlg" val="True" valType="bool" updates="None"/>
+    <Param name="Saved data folder" val="" valType="code" updates="None"/>
+    <Param name="Screen" val="1" valType="num" updates="None"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <ImageComponent name="image">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="flipVert" val="False" valType="bool" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="image" valType="code" updates="constant"/>
+        <Param name="color" val="$[1,1,1]" valType="str" updates="constant"/>
+        <Param name="stopVal" val=".4" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="mask" val="None" valType="str" updates="constant"/>
+        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
+        <Param name="interpolate" val="linear" valType="str" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="texture resolution" val="128" valType="code" updates="constant"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="flipHoriz" val="False" valType="bool" updates="constant"/>
+        <Param name="image" val="media/cross.png" valType="str" updates="constant"/>
+        <Param name="advancedParams"/>
+        <Param name="size" val="[2,2]" valType="code" updates="constant"/>
+      </ImageComponent>
+      <KeyboardComponent name="key_resp">
+        <Param name="correctAns" val="$correct" valType="str" updates="constant"/>
+        <Param name="storeCorrect" val="True" valType="bool" updates="constant"/>
+        <Param name="name" val="key_resp" valType="code" updates="None"/>
+        <Param name="stopVal" val="3.5" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="forceEndRoutine" val="True" valType="bool" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="discard previous" val="True" valType="bool" updates="constant"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="allowedKeys" val="'1','2'" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="1.8" valType="code" updates="None"/>
+        <Param name="store" val="last key" valType="str" updates="constant"/>
+      </KeyboardComponent>
+      <SoundComponent name="sound_1">
+        <Param name="sound" val="$stim" valType="str" updates="set every repeat"/>
+        <Param name="volume" val="1" valType="code" updates="constant"/>
+        <Param name="name" val="sound_1" valType="code" updates="None"/>
+        <Param name="stopVal" val="2.3" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+      </SoundComponent>
+    </Routine>
+    <Routine name="instruction">
+      <TextComponent name="text">
+        <Param name="opacity" val="1" valType="code" updates="constant"/>
+        <Param name="colorSpace" val="rgb" valType="str" updates="constant"/>
+        <Param name="name" val="text" valType="code" updates="None"/>
+        <Param name="wrapWidth" val="" valType="code" updates="constant"/>
+        <Param name="color" val="white" valType="str" updates="constant"/>
+        <Param name="text" val="In this experiment, you will hear two tones.&#10;&#10;Before the first tone you will see a fixation cross to warn you that the first tone is about to play.&#10;&#10;Your task is to compare the duration of time the tones each played and determine which tone was played for the shortest amount of time.&#10;&#10;If you believe the first tone was shorter, press 1.  If you believe the second tone was shorter, press 2.&#10;&#10;Press the spacebar when you are ready to begin.&#10;" valType="str" updates="constant"/>
+        <Param name="stopVal" val="15" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="pos" val="[0, 0]" valType="code" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="units" val="from exp settings" valType="str" updates="None"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="ori" val="0" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="font" val="Arial" valType="str" updates="constant"/>
+        <Param name="letterHeight" val="0.09" valType="code" updates="constant"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp_2">
+        <Param name="correctAns" val="" valType="str" updates="constant"/>
+        <Param name="storeCorrect" val="False" valType="bool" updates="constant"/>
+        <Param name="name" val="key_resp_2" valType="code" updates="None"/>
+        <Param name="stopVal" val="15" valType="code" updates="constant"/>
+        <Param name="durationEstim" val="" valType="code" updates="None"/>
+        <Param name="forceEndRoutine" val="True" valType="bool" updates="constant"/>
+        <Param name="startEstim" val="" valType="code" updates="None"/>
+        <Param name="discard previous" val="True" valType="bool" updates="constant"/>
+        <Param name="startType" val="time (s)" valType="str" updates="None"/>
+        <Param name="allowedKeys" val="'space'" valType="code" updates="constant"/>
+        <Param name="stopType" val="duration (s)" valType="str" updates="None"/>
+        <Param name="startVal" val="0.0" valType="code" updates="None"/>
+        <Param name="store" val="last key" valType="str" updates="constant"/>
+      </KeyboardComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="instruction"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="conditionsFile" val="condition.xlsx" valType="str" updates="None"/>
+      <Param name="name" val="trials" valType="code" updates="None"/>
+      <Param name="random seed" val="" valType="code" updates="None"/>
+      <Param name="loopType" val="random" valType="str" updates="None"/>
+      <Param name="nReps" val="1" valType="code" updates="None"/>
+      <Param name="endPoints" val="[0, 1]" valType="num" updates="None"/>
+      <Param name="conditions" val="[{u'length_1_time': 0.096000000000000002, u'stim': u'media/stim1.wav', u'trial_num': 1, u'length_2_frames': 7, u'length_1_frames': 6, u'length_2_time': 0.112, u'num_trials_presented': 5, u'correct': 1}, {u'length_1_time': 0.096000000000000002, u'stim': u'media/stim1.wav', u'trial_num': 1, u'length_2_frames': 7, u'length_1_frames': 6, u'length_2_time': 0.112, u'num_trials_presented': 5, u'correct': 1}, {u'length_1_time': 0.096000000000000002, u'stim': u'media/stim1.wav', u'trial_num': 1, u'length_2_frames': 7, u'length_1_frames': 6, u'length_2_time': 0.112, u'num_trials_presented': 5, u'correct': 1}, {u'length_1_time': 0.096000000000000002, u'stim': u'media/stim1.wav', u'trial_num': 1, u'length_2_frames': 7, u'length_1_frames': 6, u'length_2_time': 0.112, u'num_trials_presented': 5, u'correct': 1}, {u'length_1_time': 0.096000000000000002, u'stim': u'media/stim1.wav', u'trial_num': 1, u'length_2_frames': 7, u'length_1_frames': 6, u'length_2_time': 0.112, u'num_trials_presented': 5, u'correct': 1}, {u'length_1_time': 0.112, u'stim': u'media/stim2.wav', u'trial_num': 2, u'length_2_frames': 6, u'length_1_frames': 7, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 5, u'correct': 2}, {u'length_1_time': 0.112, u'stim': u'media/stim2.wav', u'trial_num': 2, u'length_2_frames': 6, u'length_1_frames': 7, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 5, u'correct': 2}, {u'length_1_time': 0.112, u'stim': u'media/stim2.wav', u'trial_num': 2, u'length_2_frames': 6, u'length_1_frames': 7, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 5, u'correct': 2}, {u'length_1_time': 0.112, u'stim': u'media/stim2.wav', u'trial_num': 2, u'length_2_frames': 6, u'length_1_frames': 7, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 5, u'correct': 2}, {u'length_1_time': 0.112, u'stim': u'media/stim2.wav', u'trial_num': 2, u'length_2_frames': 6, u'length_1_frames': 7, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 5, u'correct': 2}, {u'length_1_time': 0.096000000000000002, u'stim': u'media/stim3.wav', u'trial_num': 3, u'length_2_frames': 8, u'length_1_frames': 6, u'length_2_time': 0.128, u'num_trials_presented': 4, u'correct': 1}, {u'length_1_time': 0.096000000000000002, u'stim': u'media/stim3.wav', u'trial_num': 3, u'length_2_frames': 8, u'length_1_frames': 6, u'length_2_time': 0.128, u'num_trials_presented': 4, u'correct': 1}, {u'length_1_time': 0.096000000000000002, u'stim': u'media/stim3.wav', u'trial_num': 3, u'length_2_frames': 8, u'length_1_frames': 6, u'length_2_time': 0.128, u'num_trials_presented': 4, u'correct': 1}, {u'length_1_time': 0.096000000000000002, u'stim': u'media/stim3.wav', u'trial_num': 3, u'length_2_frames': 8, u'length_1_frames': 6, u'length_2_time': 0.128, u'num_trials_presented': 4, u'correct': 1}, {u'length_1_time': 0.128, u'stim': u'media/stim4.wav', u'trial_num': 4, u'length_2_frames': 6, u'length_1_frames': 8, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 3, u'correct': 2}, {u'length_1_time': 0.128, u'stim': u'media/stim4.wav', u'trial_num': 4, u'length_2_frames': 6, u'length_1_frames': 8, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 3, u'correct': 2}, {u'length_1_time': 0.128, u'stim': u'media/stim4.wav', u'trial_num': 4, u'length_2_frames': 6, u'length_1_frames': 8, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 3, u'correct': 2}, {u'length_1_time': 0.096000000000000002, u'stim': u'media/stim5.wav', u'trial_num': 5, u'length_2_frames': 10, u'length_1_frames': 6, u'length_2_time': 0.16, u'num_trials_presented': 4, u'correct': 1}, {u'length_1_time': 0.096000000000000002, u'stim': u'media/stim5.wav', u'trial_num': 5, u'length_2_frames': 10, u'length_1_frames': 6, u'length_2_time': 0.16, u'num_trials_presented': 4, u'correct': 1}, {u'length_1_time': 0.096000000000000002, u'stim': u'media/stim5.wav', u'trial_num': 5, u'length_2_frames': 10, u'length_1_frames': 6, u'length_2_time': 0.16, u'num_trials_presented': 4, u'correct': 1}, {u'length_1_time': 0.096000000000000002, u'stim': u'media/stim5.wav', u'trial_num': 5, u'length_2_frames': 10, u'length_1_frames': 6, u'length_2_time': 0.16, u'num_trials_presented': 4, u'correct': 1}, {u'length_1_time': 0.16, u'stim': u'media/stim6.wav', u'trial_num': 6, u'length_2_frames': 6, u'length_1_frames': 10, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 3, u'correct': 2}, {u'length_1_time': 0.16, u'stim': u'media/stim6.wav', u'trial_num': 6, u'length_2_frames': 6, u'length_1_frames': 10, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 3, u'correct': 2}, {u'length_1_time': 0.16, u'stim': u'media/stim6.wav', u'trial_num': 6, u'length_2_frames': 6, u'length_1_frames': 10, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 3, u'correct': 2}, {u'length_1_time': 0.096000000000000002, u'stim': u'media/stim7.wav', u'trial_num': 7, u'length_2_frames': 14, u'length_1_frames': 6, u'length_2_time': 0.224, u'num_trials_presented': 2, u'correct': 1}, {u'length_1_time': 0.096000000000000002, u'stim': u'media/stim7.wav', u'trial_num': 7, u'length_2_frames': 14, u'length_1_frames': 6, u'length_2_time': 0.224, u'num_trials_presented': 2, u'correct': 1}, {u'length_1_time': 0.224, u'stim': u'media/stim8.wav', u'trial_num': 8, u'length_2_frames': 6, u'length_1_frames': 14, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 5, u'correct': 2}, {u'length_1_time': 0.224, u'stim': u'media/stim8.wav', u'trial_num': 8, u'length_2_frames': 6, u'length_1_frames': 14, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 5, u'correct': 2}, {u'length_1_time': 0.224, u'stim': u'media/stim8.wav', u'trial_num': 8, u'length_2_frames': 6, u'length_1_frames': 14, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 5, u'correct': 2}, {u'length_1_time': 0.224, u'stim': u'media/stim8.wav', u'trial_num': 8, u'length_2_frames': 6, u'length_1_frames': 14, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 5, u'correct': 2}, {u'length_1_time': 0.224, u'stim': u'media/stim8.wav', u'trial_num': 8, u'length_2_frames': 6, u'length_1_frames': 14, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 5, u'correct': 2}, {u'length_1_time': 0.096000000000000002, u'stim': u'media/stim9.wav', u'trial_num': 9, u'length_2_frames': 22, u'length_1_frames': 6, u'length_2_time': 0.35199999999999998, u'num_trials_presented': 3, u'correct': 1}, {u'length_1_time': 0.096000000000000002, u'stim': u'media/stim9.wav', u'trial_num': 9, u'length_2_frames': 22, u'length_1_frames': 6, u'length_2_time': 0.35199999999999998, u'num_trials_presented': 3, u'correct': 1}, {u'length_1_time': 0.096000000000000002, u'stim': u'media/stim9.wav', u'trial_num': 9, u'length_2_frames': 22, u'length_1_frames': 6, u'length_2_time': 0.35199999999999998, u'num_trials_presented': 3, u'correct': 1}, {u'length_1_time': 0.35199999999999998, u'stim': u'media/stim10.wav', u'trial_num': 10, u'length_2_frames': 6, u'length_1_frames': 22, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 2, u'correct': 2}, {u'length_1_time': 0.35199999999999998, u'stim': u'media/stim10.wav', u'trial_num': 10, u'length_2_frames': 6, u'length_1_frames': 22, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 2, u'correct': 2}, {u'length_1_time': 0.096000000000000002, u'stim': u'media/stim11.wav', u'trial_num': 11, u'length_2_frames': 38, u'length_1_frames': 6, u'length_2_time': 0.60799999999999998, u'num_trials_presented': 1, u'correct': 1}, {u'length_1_time': 0.60799999999999998, u'stim': u'media/stim12.wav', u'trial_num': 12, u'length_2_frames': 6, u'length_1_frames': 38, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 2, u'correct': 2}, {u'length_1_time': 0.60799999999999998, u'stim': u'media/stim12.wav', u'trial_num': 12, u'length_2_frames': 6, u'length_1_frames': 38, u'length_2_time': 0.096000000000000002, u'num_trials_presented': 2, u'correct': 2}]" valType="str" updates="None"/>
+    </LoopInitiator>
+    <Routine name="trial"/>
+    <LoopTerminator name="trials"/>
+  </Flow>
+</PsychoPy2experiment>
